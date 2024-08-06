@@ -1,0 +1,380 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+:root{
+    --play: "Playfair Display", serif;
+    --fs:16px;
+    --fw:400;
+    --as:#ffffff;
+    --comon:rgb(42, 42, 64);
+    --yell:yellow
+}
+body{
+    background-color: #f8f8f8;
+    color: var(--comon);
+    transition: .50s;
+    box-sizing: border-box;
+    font-family: var(--play);
+    font-size: var(--fs);
+    font-weight: var(--fwr);
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+
+/* header top section start */
+.header_top {
+    padding: 18px;
+    background-color: rgb(229, 237, 215);
+}
+.nav_top ul li a i{
+    color: var(--comon);
+    font-size: 20px;
+}
+.list-inline-item_link a{
+    text-decoration: none;
+    color: var(--comon);
+    font-weight: 700;
+    border: 2px solid var(--comon);
+}
+.list-inline-item_link a:hover{
+    background-color: var(--as);
+    color: var(--comon);
+}
+.list-inline-item_icon{}
+ol, ul {
+    padding-left: 0rem;
+}
+/* header top section end */
+
+/* header section start here */
+.header{
+    background-color: var(--comon);
+}
+.c_nav{}
+.logo h1{ 
+    padding: 5px;
+margin-bottom: 0;
+color: var(--as);
+font-size: 25px;
+}
+.h_logo{
+ color: var(--yell);
+
+}
+
+.navbar_btn span{
+    color: var(--as) !important;
+}
+.menu{}
+
+.menu ul li a {
+    margin-left: 5px;
+    font-family: var(--rob);
+    font-size: var(--fs);
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--as) !important;
+}
+.menu ul li a:hover{
+    border-radius: 4px;
+    background-color: var(--as);
+    color: var(--comon) !important;
+    font-weight: 500;
+}
+.serch{
+
+}
+.h_btn{
+    color: var(--yell) !important;
+}
+.s_btn{
+    padding: 0 8px !important;
+    background-color: var(--yell) !important;
+}
+.s_btn:hover{
+    color: var(--as);
+    background-color: var(--comon);
+}
+
+.dropdown-menu{
+    width: 250px;
+    background-color: var(--comon);
+}
+.dropdown-item{
+    margin-top: 15px;
+    width: 200px;
+}
+/* header section end here end */
+
+/* slider section start here */
+    /* .slider */
+.slider{
+
+    margin: 50px 0;
+}
+.slider_body{
+    background-color: #ffffff;
+}
+.s_text {
+    margin: 70px 68px 0 0;
+}
+.s_title{}
+.s_title_span{
+    color: var(--yell);
+}
+.s_para{}
+.slider_btn,.c_btn{
+background-color: var(--yell);
+border-radius: 5px;
+color: var(--as);
+font-weight: 700;
+}
+.s_btn,.c_btn:hover{
+    background-color: var(--comon);
+    color: var(--as);
+    font-weight: 700;
+}
+.s_img{}
+.s_img img{}
+    
+
+/* slider section end here */
+
+
+/* product section start here */
+.product,.c_padding{
+ padding: 10px 0 50px;
+}
+.com_title,.categories_title{
+    text-align: center;
+    color: var(--yell);
+}
+.arrow{
+    background-color: var(--comon);
+    width: 100%;
+    height: 3px;
+}
+/* 2nd row */
+.product_single{
+    margin-top: 25px;
+    box-shadow: 1px 1px 5px var(--comon) !important;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.product_single:hover{
+    transition: 1s;
+    box-shadow: 1px 1px 30px var(--bg) ;
+    scale: 1.02;
+}
+.product_img{
+    
+}
+.product_img img{}
+.star ul li i{
+    background-color: var(--yell);
+}
+.star ul{
+    color: var(--bg);
+    text-align: center;
+    margin-top: 27px;
+}
+.star ul li{}
+.product_title {
+    margin: 10px 0;
+    color: var(--bg);
+    font-weight: 400;
+    text-align: center;
+}
+.overflow-hidden{
+    margin: 0 10px;
+}
+.float-start{
+    color: var(--bg);
+}
+.float-end{
+    color: var(--bg);
+}
+
+/* best section */
+.best{
+    background-color: var(--as);
+    margin: 20px 0;
+}
+.best_img{
+    position: relative;
+}
+.best_img img{
+    width: 300px;
+}
+.best_body {
+    position: absolute;
+    bottom: -1376px;
+    left: 325px;
+}
+.best_body2 {
+    position: absolute;
+    bottom: -1373px;
+    left: 815px;
+}
+.br {
+    width: 140px;
+    height: 2px;
+    background-color: black;
+}
+.fifty{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--comon);
+}
+/* best section */
+
+/* product section end here */
+
+/* bcg section start here*/
+.bcg{
+    padding: 100px;
+    color: var(--as);
+    background-image: url(../images/background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.marque {
+    font-size: 50px;
+    color: var(--yell);
+}
+/* bcg section end here */
+
+html{
+    scroll-behavior: smooth;
+}
+.arrows{
+    scroll-behavior: smooth;
+    position: fixed;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-align: center;
+    line-height: 30px;
+}
+.arrows i {
+    border-radius: 30px;
+    font-size: 30px;
+    background-color: yellow;
+}
+
+/* gadge section start here */
+.gadge{
+    margin: 0 20px;
+}
+.gadge_btn{
+    background-color: var(--comon);
+    color: var(--as);
+}
+.gadge_btn:hover{
+    background-color: var(--yell);
+    color: var(--as);
+}
+/* gadge section end here */
+
+
+/* shipping section start */
+.shipping{
+    padding-top: 0;
+}
+.sipp_icon i{
+    font-size: 30px;
+}
+.sipp_title {
+    font-size: 20px;
+}
+/* shipping section end */
+
+/* subscribe section start here */
+.subscribe{
+    padding-bottom: 50px;
+}
+.sub_title {
+    margin-bottom: 28px;
+    font-size: 21px;
+}
+
+/* subscribe section end here */
+
+
+/* footer top start here */
+.footer_top{
+    background-color: var(--comon);
+    color: var(--as);
+}
+.f_top{}
+.f_top ul li a{
+    color: var(--as);
+    text-decoration: none;
+    list-style: none;
+}
+.ft_title{
+    color: var(--yell);
+}
+/* footer top end here */
+
+/* footer bottom start here */
+.footer_bottom{
+    background-color:var(--comon);
+}
+.footer_bottom h6{
+    color: var(--yell);
+}
+.fbottom_text{
+    color: var(--as);
+}
+.futt_link{
+    text-decoration: none;
+    color: var(--yell);
+}
+/* footer bottom end here */
+
+/* sign up section start here */
+.signup{
+    margin: 50px 0;
+}
+.left {
+    background-color: var(--comon);
+    padding: 110px 0;
+    border-radius: 5px;
+}
+.left_title{
+    color: var(--yell);
+}
+.right{
+    padding: 34px 0;
+    box-shadow: 1px 1px 5px var(--comon) !important;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.right_title{
+    color: var(--comon);
+}
+.s_input{}
+.sign_btn {
+    margin: 15px 0;
+}
+/* sign up section end here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

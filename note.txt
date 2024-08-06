@@ -1,0 +1,64 @@
+https://bivashsukul.github.io/e-comerse-varieties-store/
+https://bivashsukul.github.io/nipro-agency-responsive/
+https://bivashsukul.github.io/coffee-shop/
+
+
+
+
+<div class="ft_item">
+        <!-- item -->
+        <div class="col-md-3">
+        <h5 class="ft_title">Electronic Shop</h5>
+        <p>Dhaka</p>
+        <p>Bangladesh</p>
+        <p>Phone:+0088017...</p>
+        <a href="#">Email:sk@gmail.com</a>
+        </div>
+        <!-- item -->
+
+      <!-- item -->
+        <div class="col-md-3">
+        <h5 class="ft_title">Usefull Links</h5>
+        <a href="#">About Us</a>
+        <a href="#">Service</a>
+        <a href="#">Term of Service</a>
+        <a href="#">Privacy Policy</a>
+        </div>
+      <!-- item -->
+      <!-- item -->
+        <div class="col-md-3">
+        <h5 class="ft_title">Our Services</h5>
+        <a href="#">Computer</a>
+        <a href="#">Gaming Laptop</a>
+        <a href="#">Mobile Phoe</a>
+        <a href="#">Gaming Gadge</a>
+        </div>
+      <!-- item -->
+      <!-- item -->
+        <div class="col-md-3">
+        <h5 class="ft_title">Our Socil Services</h5>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="f_link">
+          <ul class="list-inline list-inline_foot text-center">
+            <li class="list-inline-item list-inline-item_foot"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li class="list-inline-item list-inline-item_foot"><a href="#"><i class="fa-solid fa-globe"></i></a></li>
+            <li class="list-inline-item list-inline-item_foot"><a href="#"><i class="fa-brands fa-behance"></i></a></li>
+            <li class="list-inline-item list-inline-item_foot"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="list-inline-item list-inline-item_foot"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="list-inline-item list-inline-item_foot"><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+          </ul>
+        </div>
+        </div>
+      <!-- item -->
+     </div>
+
+
+
+
+
+
+
+
+
+
+

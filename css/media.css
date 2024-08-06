@@ -1,0 +1,295 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* header top */
+    .nav_top ul li a i{
+        color: var(--comon);
+        font-size: 16px;
+    }
+    /* header top */
+    /* header start */
+    .header{
+        padding: 10px 0;
+      }
+      .navbar_btn{
+        font-size: 15px;
+      }
+      .logo {
+        width: 40px;
+    }
+    .menu ul li a {
+        align-items: center;
+        padding: 10px 0 0px !important;
+        text-align: center;
+        margin-top: 10px;
+    }
+    /* header end */        
+    /* slider section start here*/
+    .s_text {
+        text-align: center;
+        margin: 18px 0px 0 0;
+    }
+    /* slider section end here */
+    /* product section start here */
+    .best_body {
+        position: absolute;
+        bottom: -4165px;
+        left: 103px;
+    }
+     .best_body2 {
+        position: absolute;
+        bottom: -4465px;
+        left: 97px;
+    }
+    /* product section end here */
+    /* bcg section start here*/
+    .bcg{
+        padding: 0;
+    }
+    .marque {
+        font-size: 25px;
+    }
+    /* bcg section end here */
+    
+    /* shipping section start here */
+    .shipping{
+        text-align: center;
+        padding-top: 0;
+    }
+    /* shipping section end here */
+
+    /* subscribe section end here */
+    .sub_title {
+        text-align: center;
+        margin-bottom: 28px;
+        font-size: 21px;
+    }
+    /* subscribe section end here */
+
+     /* footer start */
+       .footer_top{
+        text-align: center;
+       }
+       .list-inline-item_foot{
+        font-style: 25px;
+       }
+    /* footer end */
+   /* arrow button */
+    .arrows i {
+        border-radius: 30px;
+        font-size: 30px;
+        background-color: yellow;
+    }
+       
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* header start */
+    /* header start */
+    .menu ul li a {
+        align-items: center;
+        padding: 10px 0 0px !important;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .dpd_a {
+        margin-left: 474px;
+        border: none;
+    }
+    .dpd_menu[data-bs-popper] {
+        top: -8px;
+        left: 175px;
+        margin-top: 0;
+    }
+    .menu ul li a {
+        padding: 17px 0 0px !important;
+        text-align: right;
+    }
+    .dpd_submit {
+        margin-top: 6px;
+    }
+    /* header end */
+
+    /* slider section start here*/
+    .slider_body {
+        margin: 0 50px;
+    }
+    .s_text {
+        text-align: center;
+        margin: 18px 0px 0 0;
+    }
+    /* slider section end here */
+
+    /* product section start here */
+    .best_body {
+        position: absolute;
+        bottom: -2384px;
+        left: 383px;
+    }
+    .best_body2 {
+        position: absolute;
+        bottom: -2688px;
+        left: 367px;
+    }
+    /* product section end here */
+    /* bcg section start here*/
+    .bcg{
+        padding: 0;
+    }
+    .marque {
+        font-size: 25px;
+    }
+    /* bcg section end here */
+
+    /* shipping section start */
+    .shipping{
+        text-align: center;
+        padding-top: 0;
+    }
+    /* shipping section end */
+    
+    /* footer start */
+    .footer_top{
+        
+       }
+       .list-inline-item_foot{
+        font-style: 25px;
+       }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header start */
+    .menu ul li a {
+        padding: 10px 0 0px !important;
+        text-align: center;
+        margin-top: 10px;
+    }   
+    /* header end */
+    /* slider section start here*/
+    .s_text {
+        margin: 31px 0px 0 0;
+    }
+    /* slider section end here */
+    /* product section start here */
+    .best_body {
+        position: absolute;
+        bottom: -2460px;
+        left: 208px;
+    }
+    .best_body2 {
+        position: absolute;
+        bottom: -2462px;
+        left: 464px;
+    }
+    /* product section end here */
+/* bcg section start here*/
+.bcg{
+    padding: 0;
+}
+.marque {
+    font-size: 30px;
+}
+/* bcg section end here */
+
+   
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .menu ul li a {
+        margin-left: 25px;
+    }
+    /* product section start here */
+    .best_body {
+        position: absolute;
+        bottom: -1480px;
+        left: 371px;
+    }
+    .best_body2 {
+        position: absolute;
+        bottom: -1479px;
+        left: 950px;
+    }
+    /* product section end here */
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+        /* header start */
+        .menu ul li a {
+            margin-left: 30px;
+        }
+        /* header end */
+    
+    /* product section start here */
+    /* .best_body {
+        position: absolute;
+        bottom: -1572px;
+        left: 443px;
+    } */
+    .best_body {
+        position: absolute;
+        bottom: -1170px;
+        left: 500px;
+    }
+    .best_body2 {
+        position: absolute;
+        bottom: -1170px;
+        left: 1150px;
+    }
+    /* product section end here  */
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1600px) {
+
+        /* header start */
+        .menu ul li a {
+            margin-left: 30px;
+        }
+        /* header end */
+    
+    /* product section start here */
+    /* .best_body {
+        position: absolute;
+        bottom: -1572px;
+        left: 443px;
+    } */
+    .best_body {
+        position: absolute;
+        bottom: -1150px;
+        left: 500px;
+    }
+    .best_body2 {
+        position: absolute;
+        bottom: -1135px;
+        left: 1150px;
+    }
+    /* product section end here */
+
+
+
+
+
+
+
+
+
+
+
+    /* contact start */
+    .contact_input {
+        margin-top: 20px;
+        width: 525px;
+    }
+    /* contact end */
+    
+    /* footer start */
+    .ftop_para {
+        padding: 0 83px;
+    }
+    /* footer end */
+}
